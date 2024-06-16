@@ -5,7 +5,7 @@ export default function Card() {
         <div>
             <div>
                 <div className="card mt-3" style={{ "width": "18rem", "maxHeight": "360px" }}>
-                    <img src="..." className="card-img-top" alt="..." />
+                    <img src="https://media.istockphoto.com/id/1195261518/video/paneer-butter-masala-recipes.jpg?s=640x640&k=20&c=5WzlmSvsk_rtWXvFL3rQ_if8u_DgrYnDYakz4HmnkT8=" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">This is food stall</p>
