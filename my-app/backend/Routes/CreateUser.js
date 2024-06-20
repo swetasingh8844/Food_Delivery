@@ -1,0 +1,27 @@
+const express=require('express')
+const router =express.Router()
+const User=require('../models/User')
+
+router.post("/createuser",async(req,res)=>{
+    try {
+     await   User.create({
+        // name:"Ram Das",
+        // password:"123456",
+        // email:"ram12@gmail.com",
+        // location:"Vikas Nagar"
+            name:req.body.name,
+            password:req.body.password,
+            email:req.body.email,
+            location:req.body.location
+            
+        })
+        res.json({success:true});
+    } 
+    catch (error) {
+        console.log(error)
+        res.json({success:false});
+    }
+})
+
+
+module.exports=router;
