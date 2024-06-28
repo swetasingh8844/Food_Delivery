@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Link ,useNavigate} from 'react-router-dom'
 import Badge from 'react-bootstrap/Badge';
 export default function Navbar() {
+  const [cartView,setCartView]=useState()
 const navigate=useNavigate();
 
   const handleLogout= ()=>{
