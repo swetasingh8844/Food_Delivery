@@ -25,7 +25,6 @@ export default function Home() {
     useEffect(()=>{
      loadData()
     },[])
-
   return (
     <div>
     <div> <Navbar/> </div>
@@ -33,10 +32,10 @@ export default function Home() {
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" style={{objectFit:"contain !important"}}>
   <div className="carousel-inner" id='carousel'>
     <div className="carousel-caption" style={{zIndex:"10"}}>
-  <form className="d-flex">
-      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button className="btn btn-outline-success text-white bg-success" type="submit">Search</button>
-    </form> 
+  <div className="d-flex justify-content-center">
+      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" value={search} onChange={(e)=>{setSearch(e.target.value)}}/>
+      {/* <button className="btn btn-outline-success text-white bg-success" type="submit">Search</button> */}
+    </div> 
     </div>
     <div className="carousel-item active">
       <img src="https://media.istockphoto.com/id/1389161234/photo/chilli-mushroom-indian-snack-food.jpg?s=612x612&w=0&k=20&c=ULd9M--SV7IKWlWk5-QUlEGn9_kYRz3EqMZX5cVhq-U=" className="d-block w-100 "  style={{filter:"brightness(70%)"}} alt="..."/>
@@ -69,7 +68,9 @@ export default function Home() {
             </div>
             <hr/>
             {foodItem !==[]?
-            foodItem.filter((item)=>item.CategoryName===data.CategoryName)
+            foodItem.filter((item)=>(item.CategoryName===data.CategoryName)
+            && (item.name.toLowerCase().includes(search.toLocaleLowerCase()))
+            )
             .map(filterItems=>{
               return(
                 <div key={filterItems._id} className='col-12 col-md-6 col-lg-3'>

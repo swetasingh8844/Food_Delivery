@@ -3,11 +3,15 @@ import React from 'react'
 export default function Card(props) {
     let options=props.options;
     let priceOptions=Object.keys(options)
+
+    const handleAddToCart=()=>{
+
+    }
     return (
         <div>
             <div>
-                <div className="card mt-3" style={{ "width": "18rem", "maxHeight": "360px" }}>
-                    <img src="https://media.istockphoto.com/id/1195261518/video/paneer-butter-masala-recipes.jpg?s=640x640&k=20&c=5WzlmSvsk_rtWXvFL3rQ_if8u_DgrYnDYakz4HmnkT8=" className="card-img-top" alt="..." />
+                <div className="card mt-3" style={{ "width": "18rem", "maxHeight": "390px" }}>
+                    <img src={props.imgSrc} className="card-img-top" alt="..."  style={{height:"150px", objectFit:"fill"}}/>
                     <div className="card-body">
                         <h5 className="card-title">{props.foodName}</h5>
                         <p className="card-text">This is food stall</p>
@@ -28,6 +32,10 @@ export default function Card(props) {
                                 Total Price
                             </div>
                         </div>
+                        <hr></hr>
+
+                    <button className={'btn btn-success justify-center mx-1'} onClick={handleAddToCart}>Add to Cart</button>
+                        
                     </div>
                 </div>
             </div>
