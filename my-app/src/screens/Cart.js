@@ -1,9 +1,9 @@
 import React from 'react'
 import Delete from '@material-ui/icons/Delete'
-import { useCart, useDispatchCart } from '../components/ContextReducer';
+import { UseCart, UseDispatchCart } from '../components/ContextReducer';
 export default function Cart() {
-  let data = useCart();
-  let dispatch = useDispatchCart();
+  let data = UseCart();
+  let dispatch = UseDispatchCart();
   if (data.length === 0) {
     return (
       <div>
