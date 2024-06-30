@@ -1,5 +1,5 @@
 import React from 'react'
-import Delete from '@material-ui/icons/Delete'
+import Delete from '@mui/icons-material/Delete';
 import { UseCart, UseDispatchCart } from '../components/ContextReducer';
 export default function Cart() {
   let data = UseCart();
@@ -7,7 +7,7 @@ export default function Cart() {
   if (data.length === 0) {
     return (
       <div>
-        <div className='m-5 w-100 text-center fs-3'>The Cart is Empty!</div>
+        <div className='m-5 w-100 text-center text-white fs-3'>The Cart is Empty!</div>
       </div>
     )
   }
@@ -16,12 +16,10 @@ export default function Cart() {
   //   dispatch({type:"REMOVE",index:index})
   // }
 
-  const handleCheckOut = async () => {
+  const handleCheckOut = async()=> {
     let userEmail = localStorage.getItem("userEmail");
     // console.log(data,localStorage.getItem("userEmail"),new Date())
     let response = await fetch("http://localhost:5000/api/auth/orderData", {
-      // credentials: 'include',
-      // Origin:"http://localhost:3000/login",
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -57,7 +55,7 @@ export default function Cart() {
           </thead>
           <tbody>
             {data.map((food, index) => (
-              <tr>
+              <tr className='text-white'>
                 <th scope='row' >{index + 1}</th>
                 <td >{food.name}</td>
                 <td>{food.qty}</td>
@@ -67,7 +65,7 @@ export default function Cart() {
             ))}
           </tbody>
         </table>
-        <div><h1 className='fs-2'>Total Price: {totalPrice}/-</h1></div>
+        <div><h1 className='fs-2 text-white'>Total Price: {totalPrice}/-</h1></div>
         <div>
           <button className='btn bg-success mt-5 ' onClick={handleCheckOut} > Check Out </button>
         </div>
