@@ -4,7 +4,7 @@
 Welcome to TastyTreats! TastyTreats is a modern food delivery application designed to bring your favorite meals straight to your doorstep with just a few clicks.
 
 
-![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/b0741e34-7d52-4459-9daf-939012263f7f)
+![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/48dc2ae2-3734-4ee6-9a53-db47f7c917dc)
 
 
 ## Table of Contents
@@ -100,13 +100,12 @@ The backend server will be running, typically at `http://localhost:5000`.
 
 ## Screenshots
 
-![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/3f7ee52a-fd1a-4257-a88f-cf8c427438e1)
-![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/5e693d61-eb6b-4c20-b929-edaf6309530d)
-
 *Cart*
+![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/3f7ee52a-fd1a-4257-a88f-cf8c427438e1)
 
-![Restaurant Menu](screenshots/menu.png)
-*Restaurant Menu*
+*My Orders*
+![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/a7ffbb15-6980-42a5-a0d4-3d87a735d639)
+
 
 ## Contributing
 
