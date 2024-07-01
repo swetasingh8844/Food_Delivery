@@ -1,6 +1,3 @@
-Certainly! Here’s a sample README for your food delivery app "TastyTreats" for GitHub:
-
----
 
 # TastyTreats
 
