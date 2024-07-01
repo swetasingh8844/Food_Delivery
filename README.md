@@ -2,6 +2,8 @@
 # TastyTreats
 
 Welcome to TastyTreats! TastyTreats is a modern food delivery application designed to bring your favorite meals straight to your doorstep with just a few clicks.
+![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/b0741e34-7d52-4459-9daf-939012263f7f)
+
 
 ## Table of Contents
 
@@ -17,8 +19,6 @@ Welcome to TastyTreats! TastyTreats is a modern food delivery application design
 
 - **Browse Menus**: Explore a wide range of menus from various restaurants.
 - **Easy Ordering**: Simple and intuitive interface for placing orders.
-- **Real-time Tracking**: Track your order in real-time from the restaurant to your doorstep.
-- **Multiple Payment Options**: Pay using credit card, debit card, or online wallets.
 - **Order History**: View your past orders and reorder your favorites.
 
 ## Installation
@@ -83,9 +83,9 @@ The app will be available at `http://localhost:3000`.
 
 Ensure you have 'nodemon' installed globally. If not, you can install it using:
 
-     ```sh
+     
      npm install -g nodemon
-     ```
+     
      
 The backend server will be running, typically at `http://localhost:5000`.
 
@@ -98,8 +98,9 @@ The backend server will be running, typically at `http://localhost:5000`.
 
 ## Screenshots
 
-![Home Screen](screenshots/home.png)
-*Home Screen*
+![Cart](![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/3f7ee52a-fd1a-4257-a88f-cf8c427438e1)
+)
+*Cart*
 
 ![Restaurant Menu](screenshots/menu.png)
 *Restaurant Menu*
@@ -113,10 +114,6 @@ Contributions are what make the open source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
