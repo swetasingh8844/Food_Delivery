@@ -35,13 +35,16 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repository
 
     ```sh
-    git clone https://github.com/yourusername/tastytreats.git
+    git clone https://github.com/yourusername/Food_Delivery.git
     ```
 
 2. Navigate to the project directory
 
     ```sh
-    cd tastytreats
+    cd Food_Delivery
+    ```
+     ```sh
+    cd my-app
     ```
 
 3. Install the dependencies
@@ -61,10 +64,9 @@ The app will be available at `http://localhost:3000`.
 ## Usage
 
 1. **Sign Up / Log In**: Create an account or log in to start ordering.
-2. **Browse Restaurants**: Search for restaurants or browse by cuisine.
+2. **Browse Restaurants**: Search for items or browse by cuisine.
 3. **Place an Order**: Select your items, add them to the cart, and place your order.
-4. **Track Your Order**: Watch your order progress in real-time.
-5. **Enjoy Your Meal**: Receive your food and enjoy!
+4. **Enjoy Your Meal**: Receive your food and enjoy!
 
 ## Screenshots
 
@@ -73,9 +75,6 @@ The app will be available at `http://localhost:3000`.
 
 ![Restaurant Menu](screenshots/menu.png)
 *Restaurant Menu*
-
-![Order Tracking](screenshots/tracking.png)
-*Order Tracking*
 
 ## Contributing
 
@@ -94,7 +93,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 - **Your Name** - [your.email@example.com](mailto:your.email@example.com)
-- **Project Link**: [https://github.com/yourusername/tastytreats](https://github.com/yourusername/tastytreats)
+- **Project Link**: [https://github.com/yourusername/tastytreats](https://github.com/swetasingh8844/Food_Delivery)
 
 ---
 
