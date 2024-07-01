@@ -14,7 +14,6 @@ Welcome to TastyTreats! TastyTreats is a modern food delivery application design
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
