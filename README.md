@@ -70,21 +70,24 @@ The app will be available at `http://localhost:3000`.
    ```
 
 2. Install the dependencies
+   
     ```sh
     npm install
     ```
 
 3. Start the backend server using nodemon
+   
      ```sh
     nodemon .\index.js
     ```
 
 Ensure you have 'nodemon' installed globally. If not, you can install it using:
-    ```sh
-    npm install -g nodemon
-    ```
+
+     ```sh
+     npm install -g nodemon
+     ```
      
-The backend server will be running, typically at http://localhost:5000.
+The backend server will be running, typically at `http://localhost:5000`.
 
 ## Usage
 
@@ -117,8 +120,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-- **Your Name** - [your.email@example.com](mailto:your.email@example.com)
-- **Project Link**: [https://github.com/yourusername/tastytreats](https://github.com/swetasingh8844/Food_Delivery)
+- **Your Name** - [swetasingh8844@gmail.com](mailto:swetasingh8844@gmail.com)
+- **Project Link**: [https://github.com/swetasingh8844/Food_Delivery](https://github.com/swetasingh8844/Food_Delivery)
 
 ---
 
