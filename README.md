@@ -61,6 +61,31 @@ To get a local copy up and running follow these simple steps.
 
 The app will be available at `http://localhost:3000`.
 
+### Backend Setup
+
+1. Navigate to the backend directory
+
+   ```sh
+    cd backend
+   ```
+
+2. Install the dependencies
+    ```sh
+    npm install
+    ```
+
+3. Start the backend server using nodemon
+     ```sh
+    nodemon .\index.js
+    ```
+
+Ensure you have 'nodemon' installed globally. If not, you can install it using:
+    ```sh
+    npm install -g nodemon
+    ```
+     
+The backend server will be running, typically at http://localhost:5000.
+
 ## Usage
 
 1. **Sign Up / Log In**: Create an account or log in to start ordering.
