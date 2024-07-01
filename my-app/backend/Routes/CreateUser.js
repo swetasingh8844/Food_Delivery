@@ -21,10 +21,7 @@ router.post("/createuser",
     let secPassword=await bcrypt.hash(req.body.password,salt)
     try {
      await   User.create({
-        // name:"Ram Das",
-        // password:"123456",
-        // email:"ram12@gmail.com",
-        // location:"Vikas Nagar"
+    
             name:req.body.name,
             password:secPassword,
             email:req.body.email,

@@ -1,16 +1,17 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from 'react';
+
 export default function Footer() {
-  return (
-    <div>
-      <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div className="col-md-4 d-flex align-items-center">
-      <Link to="/" className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-       
-      </Link>
-      <span className="text-muted">© 2022 GoFood , Inc</span>
-    </div>
-  </footer>
-    </div>
-  )
+    return (
+        <footer className="text-center py-4">
+            <div>
+                <p>&copy; 2024 DeliciousEats, Inc. All rights reserved.</p>
+            </div>
+            <div>
+                <p>Follow us on:</p>
+                <a href="https://www.linkedin.com/in/sweta-singh-466794259/" target="_blank" rel="noopener noreferrer">Linkedin</a> | 
+                <a href="https://x.com/SwetaSi63741473?t=8GAbZw0InqIIlyzLy2t02Q&s=08" target="_blank" rel="noopener noreferrer">Twitter</a> | 
+                <a href="https://www.instagram.com/sw_eta5563?igsh=cXIwZ3Z3bWlwbDYy" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </footer>
+    );
 }
