@@ -104,7 +104,7 @@ The backend server will be running, typically at `http://localhost:5000`.
 ![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/3f7ee52a-fd1a-4257-a88f-cf8c427438e1)
 
 *My Orders*
-![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/a7ffbb15-6980-42a5-a0d4-3d87a735d639)
+![image](https://github.com/swetasingh8844/Food_Delivery/assets/120044039/a13841bc-a79e-4944-8d97-2a80b6999add)
 
 
 ## Contributing
@@ -119,9 +119,8 @@ Contributions are what make the open source community such an amazing place to l
 
 ## Contact
 
-- **Your Name** - [swetasingh8844@gmail.com](mailto:swetasingh8844@gmail.com)
-- **Project Link**: [https://github.com/swetasingh8844/Food_Delivery](https://github.com/swetasingh8844/Food_Delivery)
+- **Email** - [swetasingh8844@gmail.com](mailto:swetasingh8844@gmail.com)
+- **Linkedln**-[sweta-singh-466794259/](https://www.linkedin.com/in/sweta-singh-466794259/)
 
----
 
-Feel free to customize this template as per your project's requirements.
+
